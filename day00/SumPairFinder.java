@@ -5,12 +5,8 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.util.stream.IntStream;
 
-/*
- * Copyright (c) Robert Bosch GmbH. All rights reserved.
- */
-
 /**
- * @author VMU2COB
+ * @author Velmurugan Muthu
  */
 public class SumPairFinder {
 
