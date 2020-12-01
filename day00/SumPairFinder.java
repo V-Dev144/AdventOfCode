@@ -55,7 +55,7 @@ public class SumPairFinder {
    * @param integer
    * @param integer2
    */
-  private static void addPairs(final Integer integer, final Integer integer2) {
+  private static void addPairs(final int integer, final int integer2) {
     System.out.println("Pair: {" + integer + "," + integer2 + "}");
     System.out.println("Multiplication:" + (integer * integer2));
   }
