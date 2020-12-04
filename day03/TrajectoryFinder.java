@@ -62,7 +62,7 @@ public class TrajectoryFinder {
    */
   private HashMap<Integer, String> readFile() throws IOException {
     File file =
-        new File("D:/01_Workplace/02_WorkingSet/workplace/LEA_Core_Latest/TestProject/src/com/bosch/aoc/day3.txt");
+        new File("day3.txt");
 
     HashMap<Integer, String> trajectoryMap = new HashMap<>();
 
