@@ -1,7 +1,3 @@
-/*
- * Copyright (c) Robert Bosch GmbH. All rights reserved.
- */
-package com.bosch.aoc;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -17,7 +13,7 @@ import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 /**
- * @author VMU2COB
+ * @author V-Dev144
  */
 public class PassportValidator {
 
@@ -145,7 +141,7 @@ public class PassportValidator {
    */
   private static HashMap<Integer, List<String>> readFile() throws IOException {
     File file =
-        new File("D:/01_Workplace/02_WorkingSet/workplace/LEA_Core_Latest/TestProject/src/com/bosch/aoc/day4.txt");
+        new File("day4.txt");
 
     HashMap<Integer, List<String>> passportMap = new HashMap<>();
 
