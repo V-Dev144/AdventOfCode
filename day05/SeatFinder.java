@@ -86,7 +86,7 @@ public class SeatFinder {
    */
   private static List<String> readFile() throws IOException {
     File file =
-        new File("D:/01_Workplace/02_WorkingSet/workplace/LEA_Core_Latest/TestProject/src/com/bosch/aoc/day5.txt");
+        new File("day5.txt");
 
     List<String> seatList = new ArrayList<>();
 
