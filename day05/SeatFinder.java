@@ -61,15 +61,13 @@ public class SeatFinder {
     getMissingNumbers(seatNumbers);
 
     System.out.println("Maximum Seat ID:" + maxSeatId);
-
-    System.out.println(seatNumbers);
   }
 
   /**
    * @param seatNumbers
    */
   private static void getMissingNumbers(final List<Integer> seatNumbers) {
-    System.out.println(seatNumbers.size());
+
     for (int i = 0; i < (seatNumbers.size() - 1); i++) {
 
       int next = seatNumbers.get(i + 1);
